@@ -2,6 +2,8 @@ module github.com/hibiken/asynqmon
 
 go 1.16
 
+replace github.com/hibiken/asynq/x => github.com/webconnex/asynq/x v0.0.0-20230717222953-443c703b1ed4
+
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-cmp v0.5.7
